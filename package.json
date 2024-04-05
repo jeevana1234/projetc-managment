@@ -4,6 +4,8 @@
   "private": true,
   "dependencies": {
     "axios": "^0.18.0",
+    "browserslist": "^4.23.0",
+    "caniuse-lite": "^1.0.30001600",
     "react": "^16.7.0",
     "react-datepicker": "^2.0.0",
     "react-dom": "^16.7.0",
@@ -13,7 +15,7 @@
   },
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
-    "build": "react-scripts build",
+    "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
